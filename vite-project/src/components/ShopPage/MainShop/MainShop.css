@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.overlayShop{
+    background-color: #FFF8F6;
+    border-top: 2px solid #E0E0E0;
+}
+
+.sectionShop{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "Jost", sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 72px 0 119px;
+}
+
+.leftSec1{
+    width: 644px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.leftSec1 h3{
+    color: #F6623E;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 42px;
+}
+
+.leftSec1 h1{
+    color: black;
+    font-weight: 600;
+    font-size: 66px;
+    line-height: 92px;
+    padding-bottom: 20px;
+}
+
+.leftSec1 p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #454545;
+    padding-bottom: 30px;
+}
+
+.leftSec1 button{
+    color: white;
+    background-color: #F6623E;
+    padding: 14px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.sectionShop2{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Jost", sans-serif;
+    align-items: start;
+    padding: 100px 0;
+}
+
+.butBlock{
+    background-image: url(../public/img/backbut.png);
+    background-size: contain;
+    height: 438px;
+    background-repeat: no-repeat;
+    width: 776px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+}
+
+.butBlock button{
+    color: white;
+    background-color: #F6623E;
+    padding: 14px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.newColection h3{
+    font-size: 40px;
+    font-weight: 600;
+    width: 569px;
+    padding-bottom: 40px;
+}
+
+.twoPicture{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.sectionShop3{
+    margin: 0 0 0 333px;
+    display: flex;
+    font-family: "Jost", sans-serif;
+    align-items: start;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+.overlayTeta{
+    background-color: #FFF8F6;
+    align-items: center;
+    display: flex;
+    background-position: left;
+    justify-content: space-between;
+}
+
+.takeControl{
+    display: flex;
+    align-items: center;
+}
+
+.righttt h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 72px;
+    color: black;
+}
+
+.righttt p{
+    font-size: 16px;
+    line-height: 25px;
+    color: #454545;
+}
+
+.righttt{
+    display: flex;
+    flex-direction: column;
+    width: 515px;
+    gap: 28px;
+    align-items: start;
+}
+
+.righttt button{
+    background-color: transparent;
+    border: 2px solid #F6623E;
+    line-height: 25px;
+    padding: 13px 45px;
+    cursor: pointer;
+}
+
+.sectionShop4{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Jost", sans-serif;
+}
+
+.sectionShop4 h3{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.underHplock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.underHplock p{
+    width: 487px;
+    color: #454545;
+    font-size: 20px;
+}
+
+.arrowBox{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.arrowBox span{
+    color: #F6623E;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.imageFlex{
+    display: flex;
+    justify-content: space-between;
+}
+

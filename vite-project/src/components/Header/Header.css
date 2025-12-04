@@ -1,0 +1,219 @@
+.upper_header{
+    font-family: "Jost", sans-serif;
+    padding: 15px 120px;
+    background-color: #F6623E;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.upper_header a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.inviting{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.select_block{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+select{
+    background-color: transparent;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    border: none;
+    color: #FFFFFF;
+}
+
+option{
+    color: black;
+}
+
+.header{
+    padding: 28px 109px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul, li, ol{
+    list-style: none;
+}
+
+.header ul{
+    display: flex;
+    gap: 20px;
+}
+
+.header li{
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.log_box{
+    gap: 15px;
+    display: flex;
+}
+
+@media (max-width: 1024px){
+    .block_overlay{
+        margin-left: 0 !important; 
+        height: 30vh !important;
+        text-align: center;
+        align-items: center;
+    }
+    .in_block{
+       display: flex !important;
+       flex-direction: column !important;
+       align-items: center !important;
+    }
+    .in_block h1{
+        font-size: 48px !important;
+    }
+    .in_block button{
+        padding: 6px 14px !important;
+        font-size: 14px !important;
+    }
+    .overlay{
+        height: 55vh !important;
+    }
+    .vitamins{
+        flex-direction: column;
+    }
+    .about_sale{
+        gap: 70px;
+        padding: 0 50px !important;
+    }
+    .take_control{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .takeebox p{
+        padding-bottom: 4px !important;
+    }
+    .takeebox h1{
+        line-height: 60px;
+    }
+    .flex{
+        padding-top: 40px;
+        align-items: start !important;
+    }
+    .ioi{
+        height: 655px;
+    }
+    .product_img{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .ins_goodmix{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    .arrow{
+        text-align: center;
+        justify-content: center;
+    }
+    .shop_img{
+        flex-direction: column;
+    }
+
+    @media(max-width:764px){
+        .upper_header p{
+            display: none;
+        }
+        .upper_header{
+            text-align: center;
+            justify-content: center;
+        }
+        .header img{
+            display: none;
+        }
+        .header{
+            display: flex !important;
+            flex-direction: column !important;
+        }
+        .block_overlay{
+            height: 20vh !important;
+        }
+        .in_block p{
+            display: none;
+        }
+        .overlay{
+           height: 49vh !important;
+        }
+        .title{
+            width: 600px !important;
+        }
+        .flex{
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+        }
+        .ioi{
+            width: 432px;
+            height: 329px;
+        }
+        .about_sale{
+            padding: 0x 10px !important; 
+        }
+    }
+    @media(max-width:425px){
+        nav li{
+            font-size: 12px !important;
+        }
+        .block_overlay h1{
+            font-size: 24px !important;
+        }
+        .block_overlay{
+            height: 11vh !important;
+        }
+        .overlay{
+            height: 40vh !important;
+        }
+        .in_block h3{
+            padding-bottom: 0 !important;
+        }
+        .title{
+            width: 200px !important;
+        }
+        .about_sale{
+            flex-direction: column;
+        }
+        .takeebox h1{
+            font-size: 28px !important;
+        }
+        .takeebox{
+            padding: 0 40px;
+        }
+        .left_good {
+            width: 300px !important;
+            padding: 20px;
+        }
+        .ope{
+            width: 400px;
+            padding: 20px;
+        }
+    }
+}
